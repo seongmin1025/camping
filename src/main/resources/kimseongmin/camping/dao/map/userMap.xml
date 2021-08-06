@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!DOCTYPE mapper PUBLIC '-//mybatis.org//DTD Mapper 3.0//EN'
+	'http://mybatis.org/dtd/mybatis-3-mapper.dtd'>
+<mapper namespace='kimseongmin.camping.dao.map.UserMap'>
+	<select id='loginUser' resultType='user'>
+		select user_num userNumber, user_id userId, user_pw userPw, user_name userName,
+			birthday, user_phone phoneNumber, user_nick nickname, profile_photo profilePhoto
+		from users
+		where user_id = #{param1} and user_pw = #{param2}
+	</select>
+	
+	<select id='selectUserId' resultType='string'>
+		select user_id from users where user_id = #{param1}
+	</select>
+	
+	<select id='selectNickname' resultType='string'>
+		select user_nick from users where user_nick = #{param1}
+	</select>
+	
+	<insert id='insertUser'>
+		insert into users(user_num, user_id, user_pw, user_name, birthday, user_phone, user_nick, profile_photo)
+		values (usernum_seq.nextval, #{userId}, #{userPw}, #{userName},
+			#{birthday}, #{phoneNumber}, #{nickname}, #{profilePhoto})
+	</insert>
+	
+	<delete id='deleteUser'>
+		delete from users where user_num = #{param1}
+	</delete>
+</mapper>

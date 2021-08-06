@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Nanum+Gothic+Coding&family=Nanum+Pen+Script&display=swap');
+
+* {
+	font-family:'Nanum Gothic Coding', monospace;	
+}
+
+#carouselMain {
+	margin-top:20px;
+	margin-left:10px;
+	width:800px;
+}
+
+#gnbBtn {
+	color:black;
+	border:0.1em solid gray;
+	background:lightgray;
+}
+
+#gnbBtn:hover {
+	background:gray;
+}
+
+.container {
+	width:850px;
+	position:absolute;
+	left:8%;
+}
+
+label {
+	color:dark;
+	font-weight:normal;
+}
+
+#head1 {
+	width:850px;
+}
+
+#head2 {
+	width:850px;
+}
+
+#gnb {
+	width:850px;
+}
+
+#footer {
+	width:850px;
+}
+
+#logo {
+	margin-top:40px;
+	height:100px;
+	width:100px;
+	border:1px solid black;
+	position:relative;
+	text-align:center;
+}
+
+#logoRight {
+	margin-top:60px;
+}
+
+#logoRight p {
+	margin-bottom:0px;
+}
+
+#logoRightBottom {
+	margin-top:15px;
+	margin-bottom:20px;
+}
+
+#weather {
+	height:70px;
+	width:70px;
+	position:relative;
+	font-size:15px;
+}
+
+.min {
+	color:blue;
+}
+
+.max {
+	color:red;
+}
+
+#userJoinBtn {
+	margin-left:10px;
+	border:1px solid black;
+}
+
+#loginBtn {
+	border:1px solid black;
+}
+
+#myPageBtn {
+	margin-left:10px;
+	border:1px solid black;
+}
+
+#logoutBtn {
+	border:1px solid black;
+}
+
+input[type="text"] {
+	display:inline;
+	width:280px;
+	height:25px;
+}
+
+input[type="password"] {
+	display:inline;
+	width:250px;
+	height:25px;
+}
+
+hr {
+	margin-left:0;
+	margin-top:40px; 
+	width:800px;
+}
+
+#menubar {
+	padding:0;
+	height:150px;
+	margin-top:100px;
+	border:1px solid black;
+	font-size:15px;
+}
+
+#menuHead {
+	width:211px;
+	background:#8c8c8c;
+	color:white;
+	border:1px solid black;
+}
+
+#content4 {
+	margin-top:30px;
+	width:850px;
+	height:500px;
+}
+
+#cancelReservation {
+	text-align:center;
+	margin-top:300px;
+}
+
+#cancelReservationConfirm {
+	text-align:center;
+	margin-top:300px;
+}
+
+#map {
+	border:1px solid black;
+	position:relative;
+	height:200px;
+	width:800px;
+	font-size:30px;
+	text-align:center;
+}
+
+#content5 {
+	margin-top:30px;
+	width:850px;
+	height:500px;
+}
+
+#campMenubar {
+	padding:0;
+	height:200px;
+	margin-top:100px;
+	border:1px solid black;
+	font-size:15px;
+}
+
+#campMenuHead {
+	width:211px;
+	background:#8c8c8c;
+	color:white;
+	border:1px solid black;
+}
+
+#footerLogo {
+	text-align:center;
+	margin-top:35px;
+}
+
+#footerLogo > span {
+	font-size:32px;
+}
+
+#footerLeft div p {
+	border-left:2px solid grey;
+}
+
+#footerRight {
+	margin-top:40px;
+}
